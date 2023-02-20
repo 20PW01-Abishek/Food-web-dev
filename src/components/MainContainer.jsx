@@ -26,7 +26,7 @@ const MainContainer = () => {
 
           <div className="hidden md:flex gap-3 items-center">
             <motion.div
-              whileTap={{ scale: 2 }}
+              whileTap={{ scale: 0.8 }}
               className="w-8 h-8 rounded-lg bg-blue-300 hover:bg-blue-500 cursor-pointer  hover:shadow-lg flex items-center justify-center"
               onClick={() => {
                 if (directionChange) {
@@ -40,7 +40,7 @@ const MainContainer = () => {
               <MdChevronLeft className="text-lg text-white" />
             </motion.div>
             <motion.div
-              whileTap={{ scale: 2 }}
+              whileTap={{ scale: 0.8 }}
               className="w-8 h-8 rounded-lg bg-blue-300 hover:bg-blue-500 cursor-pointer transition-all duration-100 ease-in-out hover:shadow-lg flex items-center justify-center"
               onClick={() => {
                 if (!directionChange) {

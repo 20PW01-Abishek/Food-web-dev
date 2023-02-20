@@ -44,7 +44,7 @@ const HomeContainer = () => {
       <div className="py-2 flex-1 flex items-center relative">
         <img
           src={HeroBg}
-          className=" ml-auto h-420 w-full lg:w-auto lg:h-650"
+          className="ml-auto h-420 w-full lg:w-auto lg:h-650"
           alt="hero-bg"
         />
 
