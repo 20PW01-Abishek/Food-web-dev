@@ -8,9 +8,7 @@ import { actionType } from "../context/reducer";
 
 const RowContainer = ({ flag, data, scrollValue }) => {
   const rowContainer = useRef();
-
   const [items, setItems] = useState([]);
-
   const [{ cartItems }, dispatch] = useStateValue();
 
   const addtocart = () => {

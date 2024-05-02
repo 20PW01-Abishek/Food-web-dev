@@ -26,7 +26,7 @@ const HomeContainer = () => {
         <p className="text-[2.5rem] lg:text-[4.5rem] font-bold tracking-wide text-headingColor">
           Craziness and Foodiness
           <span className="text-blue-600 text-[3rem] lg:text-[5rem]">
-              <br></br>At Your Doorstep.
+            <br></br>At Your Doorstep.
           </span>
         </p>
 
@@ -38,7 +38,7 @@ const HomeContainer = () => {
           type="button"
           className="bg-gradient-to-br from-blue-400 to-blue-500 w-full md:w-auto px-4 py-2  rounded-lg hover:shadow-lg hover:scale-110 transition-all ease-in-out duration-100"
         >
-         <a href="#menu">Order now</a>
+          <a href="#menu">Order now</a>
         </button>
       </div>
       <div className="py-2 flex-1 flex items-center relative">
