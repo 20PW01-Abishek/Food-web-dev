@@ -52,7 +52,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed z-50 w-screen p-3 px-4 md:p-6 md:px-16 bg-blue-50 bg-opacity-80 drop-shadow-md hover:bg-blue-100 hover:bg-opacity-80">
+    <header className="fixed z-50 w-screen p-3 px-4 md:p-6 md:px-16 bg-blue-50 drop-shadow-md">
       {/* desktop & tablet */}
       <div className="hidden md:flex w-full h-full items-center justify-between">
         <Link to={"/"} className="flex items-center gap-2">
@@ -68,17 +68,17 @@ const Header = () => {
             className="flex items-center gap-24 "
           >
             <li className="hover-underline-animation text-lg text-textColor hover:text-sky-700 duration-100 transition-all ease-in-out cursor-pointer">
-              <a href="#top">Home</a>
+              <a href="/">Home</a>
             </li>
             <li className="hover-underline-animation text-lg text-textColor hover:text-sky-700 duration-100 transition-all ease-in-out cursor-pointer">
-              <a href="#menu">Menu</a>
+              <a href="/#menu">Menu</a>
             </li>
             <li className="hover-underline-animation text-lg text-textColor hover:text-sky-700 duration-100 transition-all ease-in-out cursor-pointer">
               <a href={process.env.REACT_APP_ABOUTUS_URL}>About us</a>
             </li>
 
             <li className="hover-underline-animation text-lg text-textColor hover:text-sky-700 duration-100 transition-all ease-in-out cursor-pointer">
-              <a href={process.env.REACT_APP_SERVICES_URL}>Services</a>
+              <a href={"/services"}>Services</a>
             </li>
           </motion.ul>
 
