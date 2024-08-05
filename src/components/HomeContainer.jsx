@@ -45,10 +45,9 @@ const HomeContainer = () => {
           className="mx-5 w-full h-650"
           style={{ background: 'linear-gradient(to bottom, #03B7F2, #FFFFFF)', }}
         >
-
         </div>
 
-        <div className="w-full h-full absolute top-0 left-0 flex items-center justify-center lg:px-32 py-4 gap-4 flex-wrap">
+        <div className="w-full h-full absolute top-0 left-0 flex items-center justify-center lg:px-32 py-10 my-5 gap-4 flex-wrap">
           {heroData &&
             heroData.map((n) => (
               <div
