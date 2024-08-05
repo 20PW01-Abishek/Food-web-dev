@@ -5,7 +5,7 @@ import { CreateContainer, Header, MainContainer } from "./components";
 import { useStateValue } from "./context/StateProvider";
 import { getAllFoodItems } from "./utils/firebaseFunctions";
 import { actionType } from "./context/reducer";
-import { Services } from './components';
+import { Services, Aboutus } from './components';
 
 const App = () => {
   useEffect(() => {
@@ -30,11 +30,11 @@ const App = () => {
     <AnimatePresence exitBeforeEnter>
       <div className="w-screen h-auto flex flex-col bg-primary">
         <Header />
-
         <main className="mt-14 md:mt-20 px-4 md:px-16 py-4 w-full">
           <Routes>
-            <Route path="/createItem" element={<CreateContainer />} />
+            <Route path="/create" element={<CreateContainer />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/aboutus" element={<Aboutus />} />
             <Route path="/*" element={<MainContainer />} />
           </Routes>
         </main>

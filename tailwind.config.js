@@ -52,7 +52,9 @@ module.exports = {
         cardOverlay:'rgba(256,256,256,0.4)',
         lighttextGray:"#9ca0ab",
         rowBg:"#EEF6FA",
-        card:" #F9F9F9"
+        card:" #F9F9F9",
+        beforeHover: 'rgb(0, 56, 84)',
+        afterHover: 'rgb(50, 160, 200)'
       },
       screens: {
         sm: "640px",
